@@ -71,8 +71,11 @@ h3{
   font-size: 30px;
 }
 .form{
-width: 200px;
-height: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+flex-direction: column;
 border-top-left-radius: 50px;
 border-bottom-right-radius: 50px;
 border: 2px solid white;
@@ -101,11 +104,27 @@ border: 2px solid white;
     width: 120px;
 }
 .circle{
-  width: 200px; 
-  height: 200px; 
+  width: 150px; 
+  height: 150px; 
   border: 5px solid rgb(255, 255, 255);
   border-radius: 50%;
   background-image: url(../images/a_сделай_изображение_к.png);
 }
+.button{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px 20px;
+   margin-top: 10px;
+   transition: 0.3s;
+}
+.button:hover{
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.685);
+}
+.form_name{
+    font-size: 30px;
+   margin: 5px 0px;
+}
+
 
 
